@@ -11,7 +11,7 @@ console.log(null > 0); // output false
 console.log(null == 0); // output fasle
 console.log(null >= 0); // output true
 
-console.log( =undefined > 0);
+console.log( undefined > 0);
 console.log(undefined == 0);  // avoid these type of conversion 
 console.log(null >= 0);
 
