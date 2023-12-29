@@ -40,3 +40,29 @@ console.log(typeof heros); // non primiive typeof is object
 
 
 
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+let mySecondName = "AkashDeepSingh"
+
+let anotherName = mySecondName
+anotherName = "MrDeep"
+
+console.log(mySecondName);
+console.log(anotherName);
+
+let userOne = {
+    email: "akashdeep@gmail.com",
+    upi: "akdp@okicici"
+}
+
+let userTwo = userOne;
+
+userTwo.email = "adpd@gmail.com";
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
