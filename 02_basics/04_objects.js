@@ -61,3 +61,33 @@ console.log(tinderUder);
 console.log(Object.keys(tinderUder));
 console.log(Object.values(tinderUder));
 console.log(Object.entries(tinderUder)); // show key valye pair in arrays
+
+
+// Destructuring in js
+
+const coursre = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructure: "Akash"
+}
+
+// coursre.courseInstructure 
+// another method to print instructor wsing destructuring method
+
+const {courseInstructure: instructor} = coursre
+
+console.log(instructor);
+
+// {
+//     "name": "Akash",
+//     "coursename": "js in hindi", // jason objects look like this 
+//     "price": "free",
+// }
+
+// some time we get api in arrays form 
+
+[
+    {},
+    {},
+    {}
+]
